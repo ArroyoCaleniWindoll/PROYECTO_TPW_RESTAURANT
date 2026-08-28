@@ -1,11 +1,340 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="[DESCRIPCIÓN REAL] — restaurante campestre para compartir buena comida y momentos especiales.">
+  <meta name="theme-color" content="#173f32">
+  <title>[NOMBRE DEL RESTAURANTE] | Restaurante campestre</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+  <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
+
+  <!-- =========================================================
+       HEADER / NAVBAR
+       ========================================================= -->
+  <header class="site-header" id="inicio">
+    <div class="container nav-wrap">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio de [NOMBRE DEL RESTAURANTE]">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span class="brand-text">
+          <strong>[NOMBRE DEL RESTAURANTE]</strong>
+          <small>restaurante campestre</small>
+        </span>
+      </a>
+
+      <!-- Botón visual preparado para el menú hamburguesa del siguiente avance. -->
+      <button class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-disabled="true">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Navegación principal">
+        <a class="is-active" href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#carta">Carta</a>
+        <a href="#galeria">Galería</a>
+        <a href="#eventos">Eventos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+
+      <a class="button button-small button-primary nav-cta" href="#contacto">Reservar mesa <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+
+  <main id="contenido">
+    <!-- =========================================================
+         HERO
+         ========================================================= -->
+    <section class="hero" aria-labelledby="hero-title">
+      <!-- IMAGEN DE EJEMPLO: reemplazar por una fotografía real del restaurante. -->
+      <img class="hero-image" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2200&q=85" alt="Terraza de restaurante rodeada de vegetación al atardecer">
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <p class="eyebrow eyebrow-light">Cocina, naturaleza y momentos</p>
+          <h1 id="hero-title">[NOMBRE DEL RESTAURANTE]</h1>
+          <p class="hero-lead">Sabores que se disfrutan rodeados de naturaleza.</p>
+          <p class="hero-copy">Un espacio para compartir, disfrutar de buena comida y crear momentos especiales.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#carta">Ver nuestra carta <span aria-hidden="true">↗</span></a>
+            <a class="button button-ghost" href="#contacto">Reservar mesa</a>
+          </div>
+        </div>
+        <div class="hero-meta" aria-label="Información destacada">
+          <span>Valle · Lima</span>
+          <span class="meta-line" aria-hidden="true"></span>
+          <span>Desde 1998</span>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#nosotros" aria-label="Desplazarse a la sección de bienvenida">
+        <span>Descubre</span>
+        <span class="scroll-arrow" aria-hidden="true">↓</span>
+      </a>
+    </section>
+
+    <!-- =========================================================
+         BIENVENIDA / NOSOTROS
+         ========================================================= -->
+    <section class="section about-section" id="nosotros" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-media image-frame">
+          <!-- IMAGEN DE EJEMPLO: reemplazar por fotografía real del equipo o salón. -->
+          <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=85" alt="Comedor luminoso con mesas de madera y plantas">
+          <div class="image-note">Una mesa, muchas historias</div>
+        </div>
+        <div class="about-content">
+          <p class="eyebrow">Bienvenidos</p>
+          <h2 id="about-title">Un lugar para disfrutar y compartir</h2>
+          <!-- REEMPLAZAR: [DESCRIPCIÓN REAL] con la historia y propuesta del restaurante. -->
+          <p class="section-intro">[DESCRIPCIÓN REAL] Somos un restaurante campestre pensado para desconectarte del ritmo de la ciudad y volver a lo esencial: una mesa generosa, ingredientes honestos y tiempo para los tuyos.</p>
+          <p class="section-intro">Ven a respirar aire limpio, probar recetas con sabor de casa y quedarte un rato más. Aquí cada visita se convierte en un recuerdo.</p>
+          <a class="text-link" href="#contacto">Conoce más sobre nosotros <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CARACTERÍSTICAS
+         ========================================================= -->
+    <section class="section features-section" aria-labelledby="features-title">
+      <div class="container">
+        <div class="section-heading section-heading-centered">
+          <p class="eyebrow">La experiencia</p>
+          <h2 id="features-title">Todo sabe mejor cuando hay espacio para disfrutar</h2>
+        </div>
+        <div class="features-grid">
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">✦</div>
+            <h3>Ambiente natural</h3>
+            <p>Disfruta una experiencia rodeada de verde, aire fresco y calma.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">⌁</div>
+            <h3>Sabor de casa</h3>
+            <p>Platos preparados con dedicación, tradición y productos de temporada.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">♡</div>
+            <h3>Para compartir</h3>
+            <p>El lugar ideal para disfrutar en familia, en pareja o con amigos.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon" aria-hidden="true">✺</div>
+            <h3>Eventos</h3>
+            <p>Espacios flexibles para tus celebraciones y momentos especiales.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         NUESTRA CARTA
+         ========================================================= -->
+    <section class="section menu-section" id="carta" aria-labelledby="menu-title">
+      <div class="container">
+        <div class="menu-heading">
+          <div>
+            <p class="eyebrow">De nuestra cocina</p>
+            <h2 id="menu-title">Nuestra carta</h2>
+            <p class="section-intro">Sabores preparados para disfrutar.</p>
+          </div>
+          <span class="menu-stamp" aria-hidden="true">Sabor<br>de casa</span>
+        </div>
+
+        <!-- Categorías visuales preparadas para filtros con JavaScript. -->
+        <div class="category-tabs" role="tablist" aria-label="Categorías de la carta">
+          <button class="category-tab is-selected" type="button" role="tab" aria-selected="true">Todos</button>
+          <button class="category-tab" type="button" role="tab" aria-selected="false">Entradas</button>
+          <button class="category-tab" type="button" role="tab" aria-selected="false">Platos principales</button>
+          <button class="category-tab" type="button" role="tab" aria-selected="false">Parrillas</button>
+          <button class="category-tab" type="button" role="tab" aria-selected="false">Bebidas</button>
+          <button class="category-tab" type="button" role="tab" aria-selected="false">Postres</button>
+        </div>
+
+        <div class="menu-grid">
+          <!-- IMÁGENES DE EJEMPLO: reemplazar por fotografías reales de cada plato. -->
+          <article class="menu-card">
+            <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1596560548464-f010549b84d7?auto=format&fit=crop&w=900&q=85" alt="Lomo saltado servido con papas y arroz"><span class="menu-category">Plato principal</span></div>
+            <div class="menu-card-body"><div class="menu-card-top"><h3>Lomo Saltado</h3><span class="price">S/ 32.00</span></div><p>Carne salteada, cebolla, tomate y papas doradas con arroz blanco.</p></div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1516685018646-549198525c1b?auto=format&fit=crop&w=900&q=85" alt="Arroz con pollo con ensalada fresca"><span class="menu-category">Plato principal</span></div>
+            <div class="menu-card-body"><div class="menu-card-top"><h3>Arroz con Pollo</h3><span class="price">S/ 28.00</span></div><p>Receta casera con culantro, pollo tierno y salsa criolla.</p></div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=900&q=85" alt="Parrilla familiar con carnes y vegetales"><span class="menu-category">Parrillas</span></div>
+            <div class="menu-card-body"><div class="menu-card-top"><h3>Parrilla Familiar</h3><span class="price">S/ 88.00</span></div><p>Selección de carnes, chorizo, papas, choclo y salsas de la casa.</p></div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?auto=format&fit=crop&w=900&q=85" alt="Pollo asado dorado con guarnición"><span class="menu-category">Parrillas</span></div>
+            <div class="menu-card-body"><div class="menu-card-top"><h3>Pollo a la Brasa</h3><span class="price">S/ 36.00</span></div><p>Pollo macerado en especias, papas nativas y ensalada fresca.</p></div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&fit=crop&w=900&q=85" alt="Chicharrón crocante con camote y salsa criolla"><span class="menu-category">Plato principal</span></div>
+            <div class="menu-card-body"><div class="menu-card-top"><h3>Chicharrón</h3><span class="price">S/ 30.00</span></div><p>Porción crocante con camote, mote y salsa criolla.</p></div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?auto=format&fit=crop&w=900&q=85" alt="Ceviche fresco con camote y choclo"><span class="menu-category">Entradas</span></div>
+            <div class="menu-card-body"><div class="menu-card-top"><h3>Ceviche</h3><span class="price">S/ 34.00</span></div><p>Pescado del día, leche de tigre, camote, choclo y cancha.</p></div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=85" alt="Jarra de limonada natural con hierbabuena"><span class="menu-category">Bebidas</span></div>
+            <div class="menu-card-body"><div class="menu-card-top"><h3>Limonada de la casa</h3><span class="price">S/ 16.00</span></div><p>Limonada natural con hierbabuena y un toque de jengibre.</p></div>
+          </article>
+          <article class="menu-card">
+            <div class="menu-card-image"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=900&q=85" alt="Postre de la casa decorado con frutos rojos"><span class="menu-category">Postres</span></div>
+            <div class="menu-card-body"><div class="menu-card-top"><h3>Postre de la casa</h3><span class="price">S/ 18.00</span></div><p>Receta dulce de temporada, terminada con frutos del valle.</p></div>
+          </article>
+        </div>
+        <div class="center-action"><a class="button button-outline" href="#contacto">Ver carta completa <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         SECCIÓN DESTACADA
+         ========================================================= -->
+    <section class="highlight-section" aria-labelledby="highlight-title">
+      <div class="highlight-media">
+        <!-- IMAGEN DE EJEMPLO: reemplazar por fotografía real de la especialidad. -->
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1800&q=85" alt="Plato especial servido en una mesa de madera">
+      </div>
+      <div class="highlight-content">
+        <p class="eyebrow eyebrow-light">La especialidad de la casa</p>
+        <h2 id="highlight-title">El sabor de un buen momento</h2>
+        <p>Porque una buena comida sabe mejor cuando se comparte.</p>
+        <a class="button button-light" href="#carta">Descubre nuestra especialidad <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         GALERÍA
+         ========================================================= -->
+    <section class="section gallery-section" id="galeria" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading gallery-heading">
+          <div><p class="eyebrow">Así se vive aquí</p><h2 id="gallery-title">Una mesa rodeada de naturaleza</h2></div>
+          <p class="section-intro">Cada rincón invita a bajar el ritmo y disfrutar.</p>
+        </div>
+        <!-- Galería preparada para abrirse en un lightbox con JavaScript. -->
+        <div class="gallery-grid">
+          <!-- IMÁGENES DE EJEMPLO: reemplazar por fotografías reales del restaurante. -->
+          <a class="gallery-item gallery-item-large" href="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1600&q=85"><img src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1200&q=85" alt="Mesa servida en un jardín con árboles" loading="lazy"><span class="gallery-hover" aria-hidden="true">Ver imagen ↗</span></a>
+          <a class="gallery-item" href="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=1000&q=85"><img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?auto=format&fit=crop&w=900&q=85" alt="Interior contemporáneo del restaurante" loading="lazy"><span class="gallery-hover" aria-hidden="true">Ver imagen ↗</span></a>
+          <a class="gallery-item" href="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=1000&q=85"><img src="https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?auto=format&fit=crop&w=900&q=85" alt="Paisaje verde al amanecer" loading="lazy"><span class="gallery-hover" aria-hidden="true">Ver imagen ↗</span></a>
+          <a class="gallery-item gallery-item-tall" href="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1000&q=85"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=900&q=85" alt="Ensalada colorida con ingredientes frescos" loading="lazy"><span class="gallery-hover" aria-hidden="true">Ver imagen ↗</span></a>
+          <a class="gallery-item gallery-item-wide" href="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1400&q=85"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1200&q=85" alt="Terraza del restaurante iluminada por la tarde" loading="lazy"><span class="gallery-hover" aria-hidden="true">Ver imagen ↗</span></a>
+          <a class="gallery-item" href="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=1000&q=85"><img src="https://images.unsplash.com/photo-1529692236671-f1f6cf9683ba?auto=format&fit=crop&w=900&q=85" alt="Carne a la parrilla recién preparada" loading="lazy"><span class="gallery-hover" aria-hidden="true">Ver imagen ↗</span></a>
+          <a class="gallery-item" href="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=1000&q=85"><img src="https://images.unsplash.com/photo-1544148103-0773bf10d330?auto=format&fit=crop&w=900&q=85" alt="Bebida refrescante con hojas de menta" loading="lazy"><span class="gallery-hover" aria-hidden="true">Ver imagen ↗</span></a>
+          <a class="gallery-item gallery-item-last" href="https://images.unsplash.com/photo-1517244683847-7456b63c5969?auto=format&fit=crop&w=1000&q=85"><img src="https://images.unsplash.com/photo-1517244683847-7456b63c5969?auto=format&fit=crop&w=900&q=85" alt="Familia compartiendo en la terraza" loading="lazy"><span class="gallery-hover" aria-hidden="true">Ver imagen ↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         EVENTOS
+         ========================================================= -->
+    <section class="section events-section" id="eventos" aria-labelledby="events-title">
+      <div class="container events-grid">
+        <div class="events-content">
+          <p class="eyebrow">Celebremos juntos</p>
+          <h2 id="events-title">Momentos que merecen celebrarse</h2>
+          <p class="section-intro">Cumpleaños, reuniones familiares y celebraciones especiales. Creamos el espacio ideal para compartir.</p>
+          <a class="button button-primary" href="#contacto">Consultar disponibilidad <span aria-hidden="true">↗</span></a>
+          <div class="event-points"><span>01</span><span>Atención cercana</span><span>02</span><span>Espacios a medida</span></div>
+        </div>
+        <div class="events-media image-frame">
+          <!-- IMAGEN DE EJEMPLO: reemplazar por fotografía real de eventos. -->
+          <img src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?auto=format&fit=crop&w=1300&q=85" alt="Celebración familiar en un salón decorado con luces cálidas" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         TESTIMONIOS
+         ========================================================= -->
+    <section class="section testimonials-section" aria-labelledby="testimonials-title">
+      <div class="container">
+        <div class="section-heading section-heading-centered"><p class="eyebrow">Palabras que nos inspiran</p><h2 id="testimonials-title">Lo que dicen nuestros visitantes</h2></div>
+        <div class="testimonials-grid">
+          <!-- CONTENIDO DE EJEMPLO: reemplazar por testimonios reales y autorizados. -->
+          <article class="testimonial-card"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><blockquote>“Excelente lugar para pasar un domingo en familia. La comida estuvo deliciosa y el ambiente es muy tranquilo.”</blockquote><p class="testimonial-author">María Fernanda R.</p><span class="testimonial-role">Visitante frecuente</span></article>
+          <!-- CONTENIDO DE EJEMPLO: reemplazar por testimonios reales y autorizados. -->
+          <article class="testimonial-card testimonial-card-featured"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><blockquote>“La parrilla familiar fue generosa y todos nos atendieron con una sonrisa. Volveremos sin duda.”</blockquote><p class="testimonial-author">Carlos y familia</p><span class="testimonial-role">Experiencia de fin de semana</span></article>
+          <!-- CONTENIDO DE EJEMPLO: reemplazar por testimonios reales y autorizados. -->
+          <article class="testimonial-card"><div class="stars" aria-label="5 de 5 estrellas">★★★★★</div><blockquote>“Un respiro cerca de la ciudad. Nos encantó la terraza, la limonada y el sabor casero de cada plato.”</blockquote><p class="testimonial-author">Andrea Salazar</p><span class="testimonial-role">Visitante reciente</span></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         CONTACTO
+         ========================================================= -->
+    <section class="section contact-section" id="contacto" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <p class="eyebrow eyebrow-light">Hablemos</p>
+          <h2 id="contact-title">Reserva tu próximo momento</h2>
+          <p class="contact-intro">Cuéntanos qué tienes en mente y te ayudaremos a preparar una experiencia especial.</p>
+          <div class="contact-details">
+            <div class="contact-detail"><span class="detail-icon" aria-hidden="true">⌖</span><div><strong>Dirección</strong><!-- REEMPLAZAR: [DIRECCIÓN REAL] --><p>[DIRECCIÓN REAL], Lima, Perú</p></div></div>
+            <div class="contact-detail"><span class="detail-icon" aria-hidden="true">◌</span><div><strong>Teléfono</strong><!-- REEMPLAZAR: [TELÉFONO REAL] --><p>[TELÉFONO REAL]</p></div></div>
+            <div class="contact-detail"><span class="detail-icon" aria-hidden="true">◔</span><div><strong>WhatsApp</strong><!-- REEMPLAZAR: [WHATSAPP REAL] --><p>[WHATSAPP REAL]</p></div></div>
+            <div class="contact-detail"><span class="detail-icon" aria-hidden="true">◷</span><div><strong>Horario</strong><!-- REEMPLAZAR: [HORARIO REAL] --><p>[HORARIO REAL]</p></div></div>
+          </div>
+        </div>
+
+        <!-- Formulario preparado para procesamiento PHP en el siguiente avance. No realiza envíos todavía. -->
+        <form class="contact-form" action="#" method="post">
+          <div class="form-heading"><h3>Cuéntanos de tu visita</h3><p>Los campos marcados con * son obligatorios.</p></div>
+          <div class="form-row"><div class="form-field"><label for="nombre">Nombre completo *</label><input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required></div><div class="form-field"><label for="telefono">Teléfono *</label><input type="tel" id="telefono" name="telefono" placeholder="999 999 999" required></div></div>
+          <div class="form-row"><div class="form-field"><label for="correo">Correo electrónico *</label><input type="email" id="correo" name="correo" placeholder="tu@email.com" required></div><div class="form-field"><label for="fecha">Fecha de visita</label><input type="date" id="fecha" name="fecha"></div></div>
+          <div class="form-field"><label for="personas">Número de personas</label><select id="personas" name="personas"><option value="">Selecciona una opción</option><option>1 a 2 personas</option><option>3 a 5 personas</option><option>6 a 10 personas</option><option>Más de 10 personas</option></select></div>
+          <div class="form-field"><label for="mensaje">Mensaje</label><textarea id="mensaje" name="mensaje" rows="4" placeholder="Cuéntanos cómo podemos ayudarte"></textarea></div>
+          <button class="button button-light form-submit" type="submit">Enviar solicitud <span aria-hidden="true">↗</span></button>
+          <small class="form-note">* Este formulario es demostrativo y será conectado posteriormente con PHP.</small>
+        </form>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         UBICACIÓN
+         ========================================================= -->
+    <section class="section location-section" aria-labelledby="location-title">
+      <div class="container location-grid">
+        <div class="map-placeholder" role="img" aria-label="Mapa de ubicación pendiente de insertar">
+          <div class="map-grid-lines" aria-hidden="true"></div>
+          <div class="map-pin" aria-hidden="true">⌖</div>
+          <p>Mapa de ubicación</p>
+          <small>Próximamente podrás encontrarnos aquí</small>
+        </div>
+        <!-- UBICACIÓN: insertar aquí el iframe de Google Maps cuando se confirme la dirección real. -->
+        <div class="location-content">
+          <p class="eyebrow">Cómo llegar</p>
+          <h2 id="location-title">Visítanos</h2>
+          <!-- REEMPLAZAR: [DIRECCIÓN REAL] y [HORARIO REAL]. -->
+          <p class="section-intro">Estamos a pocos minutos de la ciudad, en un rincón donde el paisaje y la mesa se encuentran.</p>
+          <div class="location-list"><p><strong>Dirección</strong>[DIRECCIÓN REAL], Lima, Perú</p><p><strong>Horarios</strong>[HORARIO REAL]</p><p><strong>Información adicional</strong>Estacionamiento disponible · Reservas recomendadas los fines de semana.</p></div>
+          <a class="text-link" href="#contacto">Planifica tu visita <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       FOOTER
+       ========================================================= -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div class="footer-brand"><a class="brand brand-footer" href="#inicio"><span class="brand-mark" aria-hidden="true">✦</span><span class="brand-text"><strong>[NOMBRE DEL RESTAURANTE]</strong><small>restaurante campestre</small></span></a><p>Un lugar para comer, compartir y volver.</p></div>
+      <div class="footer-column"><h3>Enlaces rápidos</h3><a href="#nosotros">Nosotros</a><a href="#carta">Nuestra carta</a><a href="#galeria">Galería</a><a href="#eventos">Eventos</a></div>
+      <div class="footer-column"><h3>Contacto</h3><a href="#contacto">[TELÉFONO REAL]</a><a href="#contacto">[WHATSAPP REAL]</a><a href="#contacto">[DIRECCIÓN REAL]</a></div>
+      <div class="footer-column"><h3>Síguenos</h3><div class="social-links"><a href="#contacto" aria-label="Instagram">ig</a><a href="#contacto" aria-label="Facebook">f</a><a href="#contacto" aria-label="TikTok">tk</a></div><p class="footer-social-note">Comparte tu momento con nosotros.</p></div>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 [NOMBRE DEL RESTAURANTE]. Todos los derechos reservados.</span><span>Diseñado para compartir buenos momentos.</span></div>
+  </footer>
 </body>
 </html>
