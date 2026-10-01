@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+      Contacto y reservas | La Cabaña de Don Víctor
+    </title>
+    <meta name="description" content="Cocina campestre y tradición familiar en La Cabaña de Don Víctor. Conoce nuestra carta de desayunos, almuerzos y bebidas.">
+    <meta name="theme-color" content="#173f32">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">
+      Saltar al contenido
+    </a>
+    <!-- Cabecera compartida: navegación HTML sin JavaScript -->
+    <header class="site-header">
+      <div class="nav-wrap">
+        <a class="brand" href="index.html">
+          <span class="brand-symbol" aria-hidden="true">
+            ✳
+          </span>
+          <span>
+            LA CABAÑA
+            <small>
+              DE DON VÍCTOR · RESTAURANTE CAMPESTRE
+            </small>
+          </span>
+        </a>
+        <nav class="desktop-nav" aria-label="Navegación principal">
+          <a href="index.html" >
+            Inicio
+          </a>
+          <a href="nosotros.html" >
+            Nosotros
+          </a>
+          <a href="carta.html" >
+            Carta
+          </a>
+          <a href="galeria.html" >
+            Galería
+          </a>
+          <a href="eventos.html" >
+            Eventos
+          </a>
+          <a href="contacto.html" aria-current="page">
+            Contacto
+          </a>
+        </nav>
+        <details class="mobile-nav">
+          <summary>
+            Menú
+            <span aria-hidden="true">
+              ☰
+            </span>
+          </summary>
+          <nav aria-label="Navegación móvil">
+            <a href="index.html" >
+              Inicio
+            </a>
+            <a href="nosotros.html" >
+              Nosotros
+            </a>
+            <a href="carta.html" >
+              Carta
+            </a>
+            <a href="galeria.html" >
+              Galería
+            </a>
+            <a href="eventos.html" >
+              Eventos
+            </a>
+            <a href="contacto.html" aria-current="page">
+              Contacto
+            </a>
+          </nav>
+        </details>
+        <a class="button nav-reserve" href="contacto.html">
+          Reservar mesa ↗
+        </a>
+      </div>
+    </header>
+    <main id="contenido">
+      <section class="page-intro container">
+        <p class="eyebrow">
+          HABLEMOS
+        </p>
+        <h1>
+          Tu próxima visita empieza aquí.
+        </h1>
+        <p class="lead">
+          Consulta disponibilidad directamente con el restaurante.
+        </p>
+      </section>
+      <section class="section container contact-grid">
+        <div>
+          <h2>
+            Nos encantará recibirte.
+          </h2>
+          <dl class="contact-details">
+            <dt>
+              Teléfono y WhatsApp
+            </dt>
+            <dd>
+              <a href="tel:+51972509824">
+                972 509 824
+              </a>
+            </dd>
+            <dt>
+              Zona
+            </dt>
+            <dd>
+              Río Seco – Sayán, El Ahorcado, valle de Huaura.
+            </dd>
+            <dt>
+              Referencia impresa en la carta
+            </dt>
+            <dd>
+              Carretera Río Seco – Sayán, km 20.
+            </dd>
+            <dt>
+              Horario
+            </dt>
+            <dd>
+              Consulta el horario vigente por WhatsApp.
+            </dd>
+          </dl>
+          <!-- El informe previo indicaba km 18. Verificar ubicación exacta antes de insertar un mapa. -->
+          <p class="small-note">
+            Confirma con el restaurante la referencia exacta antes de viajar.
+          </p>
+          <a class="button dark" href="https://wa.me/51972509824" target="_blank" rel="noopener noreferrer">
+            Conversar por WhatsApp ↗
+          </a>
+        </div>
+        <!-- Maqueta HTML: sin servidor ni envío. El botón es type=button. -->
+        <form class="contact-form" aria-describedby="form-status">
+          <h2>
+            Planifica tu reserva
+          </h2>
+          <p id="form-status" class="form-notice">
+            Formulario de demostración: no envía ni guarda datos. Para reservar, utiliza WhatsApp.
+          </p>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="nombre">
+                Nombre completo
+              </label>
+              <input id="nombre" name="nombre" autocomplete="name" type="text" placeholder="Tu nombre">
+            </div>
+            <div class="form-field">
+              <label for="telefono">
+                Teléfono
+              </label>
+              <input id="telefono" name="telefono" autocomplete="tel" type="tel" placeholder="Tu teléfono">
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="correo">
+              Correo electrónico
+            </label>
+            <input id="correo" name="correo" autocomplete="email" type="email" placeholder="tu@correo.com">
+          </div>
+          <div class="form-row">
+            <div class="form-field">
+              <label for="fecha">
+                Fecha de visita
+              </label>
+              <input id="fecha" name="fecha" type="date">
+            </div>
+            <div class="form-field">
+              <label for="personas">
+                Número de personas
+              </label>
+              <select id="personas" name="personas">
+                <option value="">
+                  Selecciona
+                </option>
+                <option value="1-2">
+                  1 a 2 personas
+                </option>
+                <option value="3-5">
+                  3 a 5 personas
+                </option>
+                <option value="6-10">
+                  6 a 10 personas
+                </option>
+                <option value="11+">
+                  Más de 10 personas
+                </option>
+              </select>
+            </div>
+          </div>
+          <div class="form-field">
+            <label for="mensaje">
+              Mensaje
+            </label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Detalles de tu visita">
+            </textarea>
+          </div>
+          <button class="button dark" type="button" disabled>
+            Enviar solicitud · próximamente
+          </button>
+        </form>
+      </section>
+      <section class="section soft">
+        <div class="container split">
+          <div class="map-placeholder">
+            <span aria-hidden="true">
+              ⌖
+            </span>
+            <h2>
+              Ubicación por confirmar
+            </h2>
+            <p>
+              Insertaremos el mapa cuando se confirme el punto exacto.
+            </p>
+            <!-- Insertar aquí un iframe de Google Maps con title descriptivo y loading=lazy tras confirmar el punto. -->
+          </div>
+          <div>
+            <p class="eyebrow">
+              VISÍTANOS
+            </p>
+            <h2>
+              Una pausa en el valle.
+            </h2>
+            <p>
+              Comedor al aire libre, zonas techadas y estacionamiento para acompañar tu visita. Consulta disponibilidad antes de organizar una salida en grupo.
+            </p>
+            <a class="text-link" href="https://wa.me/51972509824" target="_blank" rel="noopener noreferrer">
+              Solicitar ubicación por WhatsApp →
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Pie compartido -->
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="footer-title">
+            La Cabaña
+            <br>
+            de Don Víctor
+          </p>
+          <p>
+            Un lugar para comer,
+            <br>
+            compartir y volver.
+          </p>
+        </div>
+        <div>
+          <h2>
+            Explora
+          </h2>
+          <a href="nosotros.html">
+            Nosotros
+          </a>
+          <a href="carta.html">
+            Carta
+          </a>
+          <a href="galeria.html">
+            Galería
+          </a>
+          <a href="eventos.html">
+            Eventos
+          </a>
+          <a href="contacto.html">
+            Contacto
+          </a>
+        </div>
+        <div>
+          <h2>
+            Conversemos
+          </h2>
+          <a href="tel:+51972509824">
+            972 509 824
+          </a>
+          <a href="https://wa.me/51972509824" target="_blank" rel="noopener noreferrer">
+            WhatsApp ↗
+          </a>
+          <p>
+            Río Seco – Sayán
+            <br>
+            El Ahorcado, valle de Huaura
+          </p>
+        </div>
+        <div>
+          <h2>
+            Tu próxima visita
+          </h2>
+          <p>
+            Consulta nuestros horarios
+            <br>
+            y disponibilidad por WhatsApp.
+          </p>
+          <a href="contacto.html">
+            Cómo llegar →
+          </a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        © 2026 La Cabaña de Don Víctor · Proyecto académico de Taller de Programación Web
+      </div>
+    </footer>
+  </body>
+</html>
