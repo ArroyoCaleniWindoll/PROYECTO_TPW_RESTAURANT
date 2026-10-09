@@ -3,5 +3,5 @@
  * - menús personalizados
  * - filtros de la carta
  * - lightbox de galería
- * - validación y envío del formulario
+ * - validación y envío del formulario (creo)
  */
