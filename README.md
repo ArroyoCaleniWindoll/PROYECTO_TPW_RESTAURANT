@@ -1,9 +1,10 @@
 # La Cabaña de Don Víctor
 
-Avance 2: sitio multipágina HTML y CSS. Abre index.html directamente o mediante Live Server. No requiere instalación. Todas las fotos usadas son locales.
+Avance 2: HTML y CSS.\
+Todas las fotos usadas son locales.
 
 ## Alcance
-Página principal: Inicio.
+Página principal: Inicio.\
 Páginas secundarias: Nosotros, Carta, Galería, Eventos y Contacto.
 
 - Navegación móvil mediante details/summary nativos.
@@ -13,4 +14,5 @@ Páginas secundarias: Nosotros, Carta, Galería, Eventos y Contacto.
 - JavaScript vacío y sin incluir; no PHP ni base de datos.
 
 ## Futuras etapas
-JS si se requiere, filtros, lightbox, validación y procesamiento PHP, administración y persistencia. No fueron implementados en este avance.
+JS si se requiere, filtros, lightbox, validación y procesamiento PHP, administración y persistencia.\
+(No fueron implementados en este avance.)
