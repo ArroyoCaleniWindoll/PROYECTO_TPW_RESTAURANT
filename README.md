@@ -1,7 +1,7 @@
 # La Cabaña de Don Víctor
 
 Avance 2: HTML y CSS.\
-Todas las fotos usadas son locales.
+Todas las fotos usadas son locales (png/jpg).
 
 ## Alcance
 Página principal: Inicio.\
