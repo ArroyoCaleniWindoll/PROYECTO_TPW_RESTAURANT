@@ -56,9 +56,7 @@ p + p {
   margin-top: 18px; /* Espaciado entre párrafos consecutivos */
 }
 
-/* ==========================================================================
-   3. CONTENEDORES Y COMPONENTES REUTILIZABLES
-   ========================================================================== */
+/* -- 3. Contenedores y campos reutilizables -- */
 /* Contenedor central con margen automático */
 .container {
   width: min(var(--container), calc(100% - 48px));
@@ -153,9 +151,7 @@ section[id] {
   scroll-margin-top: 110px;
 }
 
-/* ==========================================================================
-   4. TIPOGRAFÍA Y ENCABEZADOS
-   ========================================================================== */
+/* 4. Tipografía y encabezados */
 h1, h2, .footer-title {
   font-family: var(--font-display);
   font-weight: 400;
@@ -210,10 +206,8 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 .heading-row h2 { margin: 0; }
 .heading-row .text-link { flex-shrink: 0; }
 
-/* ==========================================================================
-   5. CABECERA Y NAVEGACIÓN (HEADER)
-   ========================================================================== */
-/* Barra superior pegajosa al hacer scroll */
+/* -- 5. Cabecera y navegación -- */
+/* barra superior para el scroll */
 .site-header {
   position: sticky;
   top: 0;
@@ -233,7 +227,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
   justify-content: space-between;
 }
 
-/* Logo e identidad de la marca */
+/* Logo de la marca */
 .brand {
   display: flex;
   align-items: center;
@@ -268,9 +262,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 .mobile-nav { display: none; } /* Oculto en escritorio */
 .nav-reserve { white-space: nowrap; }
 
-/* ==========================================================================
-   6. PORTADA PRINCIPAL (HERO SECTION)
-   ========================================================================== */
+/* -- 6. Portada principal -- */
 .hero {
   position: relative;
   isolation: isolate;
@@ -292,7 +284,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
   object-position: center 55%;
 }
 
-/* Capa oscura de degradado sobre la imagen para legibilidad del texto */
+/* capa oscura de degradado (para que se vea el texto xd) */
 .hero::after {
   content: "";
   position: absolute;
@@ -307,7 +299,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 .hero-copy { max-width: 490px; }
 .scroll-link { display: inline-block; margin-top: 42px; font-size: 0.8rem; }
 
-/* Franja/Cinta verde informativa debajo del Hero */
+/* franja informativa debajo del Hero */
 .ribbon {
   display: flex;
   justify-content: center;
@@ -320,9 +312,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
   letter-spacing: 0.06em;
 }
 
-/* ==========================================================================
-   7. SECCIÓN NOSOTROS / HISTORIA
-   ========================================================================== */
+/* -- 7. nosotros - historia -- */
 .editorial-photo {
   width: 100%;
   height: 510px;
@@ -340,9 +330,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 .closing { text-align: center; max-width: 850px; }
 .closing .button { margin-top: 25px; }
 
-/* ==========================================================================
-   8. GRILLA DE CARACTERÍSTICAS
-   ========================================================================== */
+/* -- 8. características -- */
 .features {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -366,10 +354,8 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 
 .section-heading { max-width: 690px; margin-bottom: 38px; }
 
-/* ==========================================================================
-   9. CARTA / MENÚ DE PLATOS Y BEBIDAS
-   ========================================================================== */
-/* Grilla para tarjetas de platos destacadas (3 columnas) */
+/* -- 9. Carta: Menu de platos y bebidas -- */
+/* tarjetas de platos destacados (3 columnas) */
 .dish-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -389,7 +375,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 .dish-body p { font-size: 0.9rem; color: var(--color-muted); margin-bottom: 18px; }
 .price { color: var(--color-accent); font-size: 1rem; }
 
-/* Botones con forma de píldora para filtrar categorías en la Carta */
+/* botones para filtrar categorías en la carta */
 .category-nav {
   display: flex;
   gap: 12px;
@@ -414,7 +400,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 .catalog-section { border-bottom: 1px solid var(--color-border); }
 .catalog-section .dish-grid { margin: 32px 0 42px; }
 
-/* Grilla para listas de precios simples (2 columnas de tarjetas) */
+/* 2 columnas de tarjetas para precios */
 .catalog-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -453,9 +439,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 
 .menu-day { grid-template-columns: 1fr 1fr; margin-top: 32px; }
 
-/* ==========================================================================
-   10. BANNER DE HIGHLIGHT / EVENTOS
-   ========================================================================== */
+/* -- 10. banner y eventos -- */
 .feature-band {
   padding: 70px 0;
   background: var(--color-primary);
@@ -472,9 +456,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 }
 .feature-band .button { margin-top: 28px; }
 
-/* ==========================================================================
-   11. GALERÍA DE FOTOS
-   ========================================================================== */
+/* -- 11. fotos -- */
 .gallery-grid {
   padding-top: 20px;
   display: grid;
@@ -516,8 +498,8 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
 }
 
 /* Modificadores para romper la cuadrícula estándar en la Galería */
-.gallery-0 { grid-column: span 2; } /* Ocupa 2 columnas de ancho */
-.gallery-5 { grid-row: span 2; }    /* Ocupa 2 filas de alto */
+.gallery-0 { grid-column: span 2; } /* 2 columnas de ancho */
+.gallery-5 { grid-row: span 2; }    /* 2 filas de alto */
 .gallery-5 img { height: 675px; }
 
 /* -- 12. Formulario y ubicación */
@@ -644,7 +626,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
   .contact-grid { gap: 35px; }
 }
 
-/* para celulares y Tablets */
+/* para celulares y tablets */
 @media(max-width: 760px) {
   html { scroll-padding-top: 90px; }
   .container { width: calc(100% - 32px); }
@@ -718,7 +700,7 @@ h3 { font-size: 1.1rem; line-height: 1.35; margin-bottom: 14px; }
   .hero { min-height: 620px; }
 }
 
-/* Modo accesibilidad si desactivan animaciones en el sistema operativo */
+/* modo accesibilidad si desactivan animaciones en el sistema operativo */
 @media(prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
