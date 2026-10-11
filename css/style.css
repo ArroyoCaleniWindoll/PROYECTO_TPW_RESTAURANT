@@ -1,16 +1,16 @@
 /* -- 1. variables de diseño -- */
 :root {
-  --color-primary: #173f32;    /* Verde oscuro principal (Header, Footer, Botones dark) */
-  --color-secondary: #84dac0;  /* Verde menta acento (Texto destacado en fondos oscuros) */
-  --color-background: #fbfaf6; /* Fondo general hueso/crema de la web */
-  --color-text: #20302a;       /* Color de texto principal casi negro */
-  --color-muted: #456d56;      /* Verde apagado para subtítulos y textos secundarios */
-  --color-accent: #9b592e;     /* Marrón terracota/cobre para botones y precios */
-  --color-border: #dce3dc;     /* Gris verdoso claro para bordes y separadores */
-  --font-body: Arial, Helvetica, sans-serif;  /* Fuente principal de lectura */
-  --font-display: Georgia, 'Times New Roman', serif; /* Fuente elegante para títulos */
-  --radius: 16px;              /* Bordes redondeados de tarjetas e imágenes */
-  --container: 1180px;         /* Ancho máximo del contenido centrado */
+  --color-primary: #173f32;                               /* Header, Footer, Botones */
+  --color-secondary: #84dac0;                             /* Texto destacado en fondos oscuros */
+  --color-background: #fbfaf6;                            /* Fondo general de la web */
+  --color-text: #20302a;                                  /* color de texto principal */
+  --color-muted: #456d56;                                 /* subtítulos y textos secundarios */
+  --color-accent: #9b592e;                                /* botones y precios */
+  --color-border: #dce3dc;                                /* bordes y separadores */
+  --font-body: Arial, Helvetica, sans-serif;                /* Fuente principal de lectura */
+  --font-display: Georgia, 'Times New Roman', serif;        /* Fuente para títulos */
+  --radius: 16px;                                           /* Bordes redondeados de tarjetas e imágenes */
+  --container: 1180px;                                      /* Ancho máximo del contenido centrado */
 }
 
 /* -- 2. reset y estilos base -- */
