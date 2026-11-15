@@ -20,6 +20,7 @@ const Catalogo = {
   error() {
     document.getElementById('estado').textContent = 'No se pudo cargar la carta. Abre el proyecto con Live Server y comprueba data/productos.json.';
   },
+
   // Reemplaza el HTML repetido de platos por tarjetas creadas con forEach.
   mostrar(productos, alAgregar) {
     const destino = document.getElementById('catalogo');

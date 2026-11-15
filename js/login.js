@@ -1,5 +1,5 @@
 'use strict';
-// Credenciales públicas de prueba. No utilizar este mecanismo en producción.
+// Credenciales públicas de prueba.
 const formulario = document.getElementById('login-form');
 formulario.addEventListener('submit', evento => {
   evento.preventDefault();
