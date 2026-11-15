@@ -1,27 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Administración | La Cabaña de Don Víctor</title>
-    <meta name="description" content="Cocina campestre y tradición familiar en La Cabaña de Don Víctor. Conoce nuestra carta de desayunos, almuerzos y bebidas.">
-    <meta name="theme-color" content="#173f32">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/avance3.css">
-  </head>
-  <body>
-    <!--omitir intro xd-->
-    <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-    <!-- Cabecera principal -->
-    <header class="site-header">
-      <div class="nav-wrap">
-        <a class="brand" href="index.html">
-          <span class="brand-symbol" aria-hidden="true">✳</span>
-          <span>LA CABAÑA <small>DE DON VÍCTOR · RESTAURANTE CAMPESTRE</small></span>
-        </a>
-        <!-- Navegación para pantallas grandes -->
-        <nav class="desktop-nav" aria-label="Navegación principal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Administración | La Cabaña de Don Víctor</title>
+  <meta name="description"
+    content="Cocina campestre y tradición familiar en La Cabaña de Don Víctor. Conoce nuestra carta de desayunos, almuerzos y bebidas.">
+  <meta name="theme-color" content="#173f32">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/avance3.css">
+</head>
+
+<body>
+  <!--omitir intro xd-->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- Cabecera principal -->
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html">
+        <span class="brand-symbol" aria-hidden="true">✳</span>
+        <span>LA CABAÑA <small>DE DON VÍCTOR · RESTAURANTE CAMPESTRE</small></span>
+      </a>
+      <!-- Navegación para pantallas grandes -->
+      <nav class="desktop-nav" aria-label="Navegación principal">
+        <a href="index.html">Inicio</a>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="carta.html">Carta</a>
+        <a href="galeria.html">Galería</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <!-- Navegación móvil desplegable -->
+      <details class="mobile-nav">
+        <summary>Menú <span aria-hidden="true">☰</span></summary>
+        <nav aria-label="Navegación móvil">
           <a href="index.html">Inicio</a>
           <a href="nosotros.html">Nosotros</a>
           <a href="carta.html">Carta</a>
@@ -29,56 +43,77 @@
           <a href="eventos.html">Eventos</a>
           <a href="contacto.html">Contacto</a>
         </nav>
-        <!-- Navegación móvil desplegable -->
-        <details class="mobile-nav">
-          <summary>Menú <span aria-hidden="true">☰</span></summary>
-          <nav aria-label="Navegación móvil">
-            <a href="index.html">Inicio</a>
-            <a href="nosotros.html">Nosotros</a>
-            <a href="carta.html">Carta</a>
-            <a href="galeria.html">Galería</a>
-            <a href="eventos.html">Eventos</a>
-            <a href="contacto.html">Contacto</a>
-          </nav>
-        </details>
-        <a class="button nav-reserve" href="contacto.html">Reservar mesa ↗</a>
-      </div>
-    </header>
+      </details>
+      <a class="button nav-reserve" href="contacto.html">Reservar mesa ↗</a>
+    </div>
+  </header>
 
-    <main id="contenido"><section class="page-intro container"><p class="eyebrow">ADMINISTRACIÓN · SOLO VISTA PREVIA</p><h1>Datos del catálogo</h1><p class="lead">Lectura del mismo JSON utilizado en la carta. En este avance no se pueden registrar, editar ni eliminar productos.</p><button id="salir" class="button dark" type="button">Cerrar sesión</button></section><section id="zona-admin" class="section container" hidden><p id="estado" role="status">Cargando datos…</p><div class="table-scroll" tabindex="0" role="region" aria-label="Catálogo administrativo"><table><caption>Productos y bebidas del restaurante</caption><thead><tr><th scope="col">ID</th><th scope="col">Nombre</th><th scope="col">Categoría</th><th scope="col">Grupo</th><th scope="col">Precio</th><th scope="col">Imagen</th></tr></thead><tbody id="datos-admin"></tbody></table></div><h2>JSON en crudo</h2><pre id="json-preview"></pre><p>Para el proyecto final: autenticación real, registro de alimentos y gestión de pedidos/delivery. No implementados aquí.</p></section></main>
+  <main id="contenido">
+    <section class="page-intro container">
+      <p class="eyebrow">ADMINISTRACIÓN · SOLO VISTA PREVIA</p>
+      <h1>Datos del catálogo</h1>
+      <p class="lead">Lectura del mismo JSON utilizado en la carta. En este avance no se pueden registrar, editar ni
+        eliminar productos.</p><button id="salir" class="button dark" type="button">Cerrar sesión</button>
+    </section>
+    <section id="zona-admin" class="section container" hidden>
+      <p id="estado" role="status">Cargando datos…</p>
+      <div class="table-scroll" tabindex="0" role="region" aria-label="Catálogo administrativo">
+        <table>
+          <caption>Productos y bebidas del restaurante</caption>
+          <thead>
+            <tr>
+              <th scope="col">ID</th>
+              <th scope="col">Nombre</th>
+              <th scope="col">Categoría</th>
+              <th scope="col">Grupo</th>
+              <th scope="col">Precio</th>
+              <th scope="col">Imagen</th>
+            </tr>
+          </thead>
+          <tbody id="datos-admin"></tbody>
+        </table>
+      </div>
+      <h2>JSON en crudo</h2>
+      <pre id="json-preview"></pre>
+      <p>Para el proyecto final: autenticación real, registro de alimentos y gestión de pedidos/delivery. No
+        implementados aquí.</p>
+    </section>
+  </main>
 
-    <!-- Pie de página -->
-    <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <p class="footer-title">La Cabaña <br> de Don Víctor</p>
-          <p>Un lugar para comer, <br> compartir y volver.</p>
-        </div>
-        <div>
-          <h2>Explora</h2>
-          <a href="nosotros.html">Nosotros</a>
-          <a href="carta.html">Carta</a>
-          <a href="galeria.html">Galería</a>
-          <a href="eventos.html">Eventos</a>
-          <a href="contacto.html">Contacto</a>
-        </div>
-        <div>
-          <h2>Conversemos</h2>
-          <a href="tel:+51972509824">972 509 824</a>
-          <a href="https://wa.me/51972509824" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
-          <p>Río Seco – Sayán <br> El Ahorcado, valle de Huaura</p>
-        </div>
-        <div>
-          <h2>Tu próxima visita</h2>
-          <p>Consulta nuestros horarios <br> y disponibilidad por WhatsApp.</p>
-          <a href="contacto.html">Cómo llegar →</a>
-        </div>
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="footer-title">La Cabaña <br> de Don Víctor</p>
+        <p>Un lugar para comer, <br> compartir y volver.</p>
       </div>
-      <div class="container footer-bottom">
-        <a href="login-admin.html">Acceso administrador</a> · © 2026 La Cabaña de Don Víctor · Proyecto académico de Taller de Programación Web
+      <div>
+        <h2>Explora</h2>
+        <a href="nosotros.html">Nosotros</a>
+        <a href="carta.html">Carta</a>
+        <a href="galeria.html">Galería</a>
+        <a href="eventos.html">Eventos</a>
+        <a href="contacto.html">Contacto</a>
       </div>
-    </footer>
+      <div>
+        <h2>Conversemos</h2>
+        <a href="tel:+51972509824">972 509 824</a>
+        <a href="https://wa.me/51972509824" target="_blank" rel="noopener noreferrer">WhatsApp ↗</a>
+        <p>Río Seco – Sayán <br> El Ahorcado, valle de Huaura</p>
+      </div>
+      <div>
+        <h2>Tu próxima visita</h2>
+        <p>Consulta nuestros horarios <br> y disponibilidad por WhatsApp.</p>
+        <a href="contacto.html">Cómo llegar →</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <a href="login-admin.html">Acceso administrador</a> · © 2026 La Cabaña de Don Víctor · Proyecto académico de
+      Taller de Programación Web
+    </div>
+  </footer>
   <script src="js/catalogo.js" defer></script>
-<script src="js/admin.js" defer></script>
+  <script src="js/admin.js" defer></script>
 </body>
+
 </html>
