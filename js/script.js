@@ -1,7 +1,4 @@
-/*
- Para el tercer avance:
- * - menús personalizados
- * - filtros de la carta
- * - lightbox de galería
- * - validación y envío del formulario (creo)
- */
+/* Archivo conservado del avance 2, no vinculado.
+   El avance 3 usa catalogo.js, carta.js, login.js, cliente.js y admin.js.
+   Consulta README.md para el alcance y las credenciales de demostración. */
+

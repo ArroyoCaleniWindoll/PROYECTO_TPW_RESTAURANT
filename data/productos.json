@@ -1,0 +1,843 @@
+[
+  {
+    "id": 1,
+    "nombre": "Chicharrón · ¼ kg",
+    "categoria": "Desayunos",
+    "grupo": "Chicharrones",
+    "precio": 35.0,
+    "imagen": ""
+  },
+  {
+    "id": 2,
+    "nombre": "Chicharrón · ½ kg",
+    "categoria": "Desayunos",
+    "grupo": "Chicharrones",
+    "precio": 65.0,
+    "imagen": ""
+  },
+  {
+    "id": 3,
+    "nombre": "Chicharrón · 1 kg",
+    "categoria": "Desayunos",
+    "grupo": "Chicharrones",
+    "precio": 120.0,
+    "imagen": ""
+  },
+  {
+    "id": 4,
+    "nombre": "Caldo de gallina",
+    "categoria": "Desayunos",
+    "grupo": "Caldos",
+    "precio": 15.0,
+    "imagen": ""
+  },
+  {
+    "id": 5,
+    "nombre": "Patasca",
+    "categoria": "Desayunos",
+    "grupo": "Caldos",
+    "precio": 20.0,
+    "imagen": ""
+  },
+  {
+    "id": 6,
+    "nombre": "Gallina · combinado con presa",
+    "categoria": "Desayunos",
+    "grupo": "Caldos",
+    "precio": 22.0,
+    "imagen": ""
+  },
+  {
+    "id": 7,
+    "nombre": "Combinado con presa",
+    "categoria": "Desayunos",
+    "grupo": "Caldos",
+    "precio": 30.0,
+    "imagen": ""
+  },
+  {
+    "id": 8,
+    "nombre": "Picante de carne",
+    "categoria": "Desayunos",
+    "grupo": "Segundos",
+    "precio": 14.0,
+    "imagen": ""
+  },
+  {
+    "id": 9,
+    "nombre": "Cau cau",
+    "categoria": "Desayunos",
+    "grupo": "Segundos",
+    "precio": 14.0,
+    "imagen": ""
+  },
+  {
+    "id": 10,
+    "nombre": "Tortilla de verdura",
+    "categoria": "Desayunos",
+    "grupo": "Segundos",
+    "precio": 14.0,
+    "imagen": ""
+  },
+  {
+    "id": 11,
+    "nombre": "Arroz a la cubana",
+    "categoria": "Desayunos",
+    "grupo": "Segundos",
+    "precio": 14.0,
+    "imagen": ""
+  },
+  {
+    "id": 12,
+    "nombre": "Pollo frito",
+    "categoria": "Desayunos",
+    "grupo": "Segundos",
+    "precio": 15.0,
+    "imagen": ""
+  },
+  {
+    "id": 13,
+    "nombre": "Pollo saltado",
+    "categoria": "Desayunos",
+    "grupo": "Segundos",
+    "precio": 18.0,
+    "imagen": ""
+  },
+  {
+    "id": 14,
+    "nombre": "Pan con chicharrón",
+    "categoria": "Desayunos",
+    "grupo": "Panes",
+    "precio": 12.0,
+    "imagen": ""
+  },
+  {
+    "id": 15,
+    "nombre": "Pan con huevo",
+    "categoria": "Desayunos",
+    "grupo": "Panes",
+    "precio": 6.0,
+    "imagen": ""
+  },
+  {
+    "id": 16,
+    "nombre": "Pan con camote",
+    "categoria": "Desayunos",
+    "grupo": "Panes",
+    "precio": 5.0,
+    "imagen": ""
+  },
+  {
+    "id": 17,
+    "nombre": "Pan con relleno",
+    "categoria": "Desayunos",
+    "grupo": "Panes",
+    "precio": 5.0,
+    "imagen": ""
+  },
+  {
+    "id": 18,
+    "nombre": "Pan con tortilla",
+    "categoria": "Desayunos",
+    "grupo": "Panes",
+    "precio": 8.0,
+    "imagen": ""
+  },
+  {
+    "id": 19,
+    "nombre": "Pan con aceituna",
+    "categoria": "Desayunos",
+    "grupo": "Panes",
+    "precio": 5.0,
+    "imagen": ""
+  },
+  {
+    "id": 20,
+    "nombre": "Tamal de chancho",
+    "categoria": "Desayunos",
+    "grupo": "Tamales",
+    "precio": 12.0,
+    "imagen": ""
+  },
+  {
+    "id": 21,
+    "nombre": "Tamal de pollo",
+    "categoria": "Desayunos",
+    "grupo": "Tamales",
+    "precio": 12.0,
+    "imagen": ""
+  },
+  {
+    "id": 22,
+    "nombre": "Chancho al palo",
+    "categoria": "Almuerzos",
+    "grupo": "Chancho",
+    "precio": null,
+    "imagen": "img/palo.jpg"
+  },
+  {
+    "id": 23,
+    "nombre": "Chancho al palo familiar",
+    "categoria": "Almuerzos",
+    "grupo": "Chancho",
+    "precio": null,
+    "imagen": ""
+  },
+  {
+    "id": 24,
+    "nombre": "Chancho a la caja china",
+    "categoria": "Almuerzos",
+    "grupo": "Chancho",
+    "precio": null,
+    "imagen": "img/caja.jpg"
+  },
+  {
+    "id": 25,
+    "nombre": "Chaufa de chancho al palo",
+    "categoria": "Almuerzos",
+    "grupo": "Chancho",
+    "precio": 45.0,
+    "imagen": ""
+  },
+  {
+    "id": 26,
+    "nombre": "Tallarín saltado de chancho al palo",
+    "categoria": "Almuerzos",
+    "grupo": "Chancho",
+    "precio": 45.0,
+    "imagen": ""
+  },
+  {
+    "id": 27,
+    "nombre": "Pato en ají",
+    "categoria": "Almuerzos",
+    "grupo": "Pato",
+    "precio": 40.0,
+    "imagen": "img/pato.jpg"
+  },
+  {
+    "id": 28,
+    "nombre": "Ceviche de pato",
+    "categoria": "Almuerzos",
+    "grupo": "Pato",
+    "precio": 40.0,
+    "imagen": ""
+  },
+  {
+    "id": 29,
+    "nombre": "Arroz con pato",
+    "categoria": "Almuerzos",
+    "grupo": "Pato",
+    "precio": 40.0,
+    "imagen": ""
+  },
+  {
+    "id": 30,
+    "nombre": "Chicharrón de conejo",
+    "categoria": "Almuerzos",
+    "grupo": "Conejo",
+    "precio": 39.0,
+    "imagen": ""
+  },
+  {
+    "id": 31,
+    "nombre": "Conejo picante",
+    "categoria": "Almuerzos",
+    "grupo": "Conejo",
+    "precio": 39.0,
+    "imagen": ""
+  },
+  {
+    "id": 32,
+    "nombre": "Conejo al vapor",
+    "categoria": "Almuerzos",
+    "grupo": "Conejo",
+    "precio": 39.0,
+    "imagen": ""
+  },
+  {
+    "id": 33,
+    "nombre": "Medio conejo",
+    "categoria": "Almuerzos",
+    "grupo": "Conejo",
+    "precio": 65.0,
+    "imagen": ""
+  },
+  {
+    "id": 34,
+    "nombre": "Conejo entero",
+    "categoria": "Almuerzos",
+    "grupo": "Conejo",
+    "precio": 99.5,
+    "imagen": ""
+  },
+  {
+    "id": 35,
+    "nombre": "Trucha frita",
+    "categoria": "Almuerzos",
+    "grupo": "Trucha",
+    "precio": 36.0,
+    "imagen": "img/trucha.jpg"
+  },
+  {
+    "id": 36,
+    "nombre": "Trucha sudada",
+    "categoria": "Almuerzos",
+    "grupo": "Trucha",
+    "precio": 38.0,
+    "imagen": ""
+  },
+  {
+    "id": 37,
+    "nombre": "Trucha en chicharrón",
+    "categoria": "Almuerzos",
+    "grupo": "Trucha",
+    "precio": 38.0,
+    "imagen": "img/chicharron-trucha.jpg"
+  },
+  {
+    "id": 38,
+    "nombre": "Trucha al vapor",
+    "categoria": "Almuerzos",
+    "grupo": "Trucha",
+    "precio": 38.0,
+    "imagen": ""
+  },
+  {
+    "id": 39,
+    "nombre": "Trucha a la parrilla",
+    "categoria": "Almuerzos",
+    "grupo": "Trucha",
+    "precio": 38.0,
+    "imagen": ""
+  },
+  {
+    "id": 40,
+    "nombre": "Jalea de trucha",
+    "categoria": "Almuerzos",
+    "grupo": "Trucha",
+    "precio": 38.0,
+    "imagen": ""
+  },
+  {
+    "id": 41,
+    "nombre": "Bistec",
+    "categoria": "Almuerzos",
+    "grupo": "Carnes",
+    "precio": 40.0,
+    "imagen": ""
+  },
+  {
+    "id": 42,
+    "nombre": "Lomo saltado",
+    "categoria": "Almuerzos",
+    "grupo": "Carnes",
+    "precio": 40.0,
+    "imagen": ""
+  },
+  {
+    "id": 43,
+    "nombre": "Lomo a lo pobre",
+    "categoria": "Almuerzos",
+    "grupo": "Carnes",
+    "precio": 42.0,
+    "imagen": ""
+  },
+  {
+    "id": 44,
+    "nombre": "Bistec a lo pobre",
+    "categoria": "Almuerzos",
+    "grupo": "Carnes",
+    "precio": 42.0,
+    "imagen": ""
+  },
+  {
+    "id": 45,
+    "nombre": "Medio cuy · Picante",
+    "categoria": "Almuerzos",
+    "grupo": "Cuy",
+    "precio": null,
+    "imagen": ""
+  },
+  {
+    "id": 46,
+    "nombre": "Cuy entero · Picante",
+    "categoria": "Almuerzos",
+    "grupo": "Cuy",
+    "precio": 70.0,
+    "imagen": ""
+  },
+  {
+    "id": 47,
+    "nombre": "Medio cuy · Frito",
+    "categoria": "Almuerzos",
+    "grupo": "Cuy",
+    "precio": null,
+    "imagen": ""
+  },
+  {
+    "id": 48,
+    "nombre": "Cuy entero · Frito",
+    "categoria": "Almuerzos",
+    "grupo": "Cuy",
+    "precio": 70.0,
+    "imagen": ""
+  },
+  {
+    "id": 49,
+    "nombre": "Medio cuy · Chactado",
+    "categoria": "Almuerzos",
+    "grupo": "Cuy",
+    "precio": null,
+    "imagen": ""
+  },
+  {
+    "id": 50,
+    "nombre": "Cuy entero · Chactado",
+    "categoria": "Almuerzos",
+    "grupo": "Cuy",
+    "precio": 70.0,
+    "imagen": ""
+  },
+  {
+    "id": 51,
+    "nombre": "Medio cuy · Chicharrón",
+    "categoria": "Almuerzos",
+    "grupo": "Cuy",
+    "precio": null,
+    "imagen": ""
+  },
+  {
+    "id": 52,
+    "nombre": "Cuy entero · Chicharrón",
+    "categoria": "Almuerzos",
+    "grupo": "Cuy",
+    "precio": 70.0,
+    "imagen": ""
+  },
+  {
+    "id": 53,
+    "nombre": "Pollo a la plancha",
+    "categoria": "Almuerzos",
+    "grupo": "Pollo",
+    "precio": 35.0,
+    "imagen": ""
+  },
+  {
+    "id": 54,
+    "nombre": "Milanesa de pollo",
+    "categoria": "Almuerzos",
+    "grupo": "Pollo",
+    "precio": 38.0,
+    "imagen": ""
+  },
+  {
+    "id": 55,
+    "nombre": "Pollo saltado",
+    "categoria": "Almuerzos",
+    "grupo": "Pollo",
+    "precio": 35.0,
+    "imagen": ""
+  },
+  {
+    "id": 56,
+    "nombre": "Chicharrón de pollo",
+    "categoria": "Almuerzos",
+    "grupo": "Pollo",
+    "precio": 35.0,
+    "imagen": ""
+  },
+  {
+    "id": 57,
+    "nombre": "Pollo frito",
+    "categoria": "Almuerzos",
+    "grupo": "Pollo",
+    "precio": 35.0,
+    "imagen": ""
+  },
+  {
+    "id": 58,
+    "nombre": "Tacu tacu con bistec",
+    "categoria": "Almuerzos",
+    "grupo": "Tacu tacu",
+    "precio": 55.0,
+    "imagen": ""
+  },
+  {
+    "id": 59,
+    "nombre": "Tacu tacu con pato en ají",
+    "categoria": "Almuerzos",
+    "grupo": "Tacu tacu",
+    "precio": 55.0,
+    "imagen": ""
+  },
+  {
+    "id": 60,
+    "nombre": "Tacu tacu con lomo saltado",
+    "categoria": "Almuerzos",
+    "grupo": "Tacu tacu",
+    "precio": 55.0,
+    "imagen": ""
+  },
+  {
+    "id": 61,
+    "nombre": "Tacu tacu con chancho al palo",
+    "categoria": "Almuerzos",
+    "grupo": "Tacu tacu",
+    "precio": 55.0,
+    "imagen": ""
+  },
+  {
+    "id": 62,
+    "nombre": "Tacu tacu con chancho a la caja china",
+    "categoria": "Almuerzos",
+    "grupo": "Tacu tacu",
+    "precio": 55.0,
+    "imagen": ""
+  },
+  {
+    "id": 63,
+    "nombre": "Pachamanca de lechón a la piedra",
+    "categoria": "Almuerzos",
+    "grupo": "Especialidades",
+    "precio": 45.0,
+    "imagen": ""
+  },
+  {
+    "id": 64,
+    "nombre": "Carnero a la norteña",
+    "categoria": "Almuerzos",
+    "grupo": "Especialidades",
+    "precio": 40.0,
+    "imagen": ""
+  },
+  {
+    "id": 65,
+    "nombre": "Jugo · Papaya",
+    "categoria": "Bebidas",
+    "grupo": "Jugos",
+    "precio": 10.0,
+    "imagen": "img/papaya.jpg"
+  },
+  {
+    "id": 66,
+    "nombre": "Jugo · Piña",
+    "categoria": "Bebidas",
+    "grupo": "Jugos",
+    "precio": 10.0,
+    "imagen": ""
+  },
+  {
+    "id": 67,
+    "nombre": "Jugo · Fresa",
+    "categoria": "Bebidas",
+    "grupo": "Jugos",
+    "precio": 10.0,
+    "imagen": ""
+  },
+  {
+    "id": 68,
+    "nombre": "Jugo · Mango",
+    "categoria": "Bebidas",
+    "grupo": "Jugos",
+    "precio": 10.0,
+    "imagen": ""
+  },
+  {
+    "id": 69,
+    "nombre": "Jugo · Plátano",
+    "categoria": "Bebidas",
+    "grupo": "Jugos",
+    "precio": 10.0,
+    "imagen": ""
+  },
+  {
+    "id": 70,
+    "nombre": "Jugo · Combinado",
+    "categoria": "Bebidas",
+    "grupo": "Jugos",
+    "precio": 10.0,
+    "imagen": ""
+  },
+  {
+    "id": 71,
+    "nombre": "Jugo · Con leche",
+    "categoria": "Bebidas",
+    "grupo": "Jugos",
+    "precio": 11.0,
+    "imagen": ""
+  },
+  {
+    "id": 72,
+    "nombre": "Jugo · Especial",
+    "categoria": "Bebidas",
+    "grupo": "Jugos",
+    "precio": 12.0,
+    "imagen": ""
+  },
+  {
+    "id": 73,
+    "nombre": "Café",
+    "categoria": "Bebidas",
+    "grupo": "Calientes",
+    "precio": 4.0,
+    "imagen": ""
+  },
+  {
+    "id": 74,
+    "nombre": "Café con leche",
+    "categoria": "Bebidas",
+    "grupo": "Calientes",
+    "precio": 7.0,
+    "imagen": ""
+  },
+  {
+    "id": 75,
+    "nombre": "Anís",
+    "categoria": "Bebidas",
+    "grupo": "Calientes",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 76,
+    "nombre": "Manzanilla",
+    "categoria": "Bebidas",
+    "grupo": "Calientes",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 77,
+    "nombre": "Menta",
+    "categoria": "Bebidas",
+    "grupo": "Calientes",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 78,
+    "nombre": "Té",
+    "categoria": "Bebidas",
+    "grupo": "Calientes",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 79,
+    "nombre": "Muña",
+    "categoria": "Bebidas",
+    "grupo": "Calientes",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 80,
+    "nombre": "Cedrón",
+    "categoria": "Bebidas",
+    "grupo": "Calientes",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 81,
+    "nombre": "Maracuyá · Vaso",
+    "categoria": "Bebidas",
+    "grupo": "Caseras",
+    "precio": 7.0,
+    "imagen": ""
+  },
+  {
+    "id": 82,
+    "nombre": "Maracuyá · 1 litro",
+    "categoria": "Bebidas",
+    "grupo": "Caseras",
+    "precio": 15.0,
+    "imagen": ""
+  },
+  {
+    "id": 83,
+    "nombre": "Maracuyá · 1.5 litros",
+    "categoria": "Bebidas",
+    "grupo": "Caseras",
+    "precio": 21.0,
+    "imagen": ""
+  },
+  {
+    "id": 84,
+    "nombre": "Cebada · Vaso",
+    "categoria": "Bebidas",
+    "grupo": "Caseras",
+    "precio": 7.0,
+    "imagen": ""
+  },
+  {
+    "id": 85,
+    "nombre": "Cebada · 1 litro",
+    "categoria": "Bebidas",
+    "grupo": "Caseras",
+    "precio": 15.0,
+    "imagen": ""
+  },
+  {
+    "id": 86,
+    "nombre": "Cebada · 1.5 litros",
+    "categoria": "Bebidas",
+    "grupo": "Caseras",
+    "precio": 21.0,
+    "imagen": ""
+  },
+  {
+    "id": 87,
+    "nombre": "San Luis · ½ litro",
+    "categoria": "Bebidas",
+    "grupo": "Agua mineral",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 88,
+    "nombre": "San Mateo · ½ litro",
+    "categoria": "Bebidas",
+    "grupo": "Agua mineral",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 89,
+    "nombre": "Cielo · ½ litro",
+    "categoria": "Bebidas",
+    "grupo": "Agua mineral",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 90,
+    "nombre": "Agua mineral · 2.25 litros",
+    "categoria": "Bebidas",
+    "grupo": "Agua mineral",
+    "precio": 6.0,
+    "imagen": ""
+  },
+  {
+    "id": 91,
+    "nombre": "Inca Kola / Coca-Cola · Personal",
+    "categoria": "Bebidas",
+    "grupo": "Gaseosas",
+    "precio": 3.5,
+    "imagen": ""
+  },
+  {
+    "id": 92,
+    "nombre": "Inca Kola / Coca-Cola · 600 ml",
+    "categoria": "Bebidas",
+    "grupo": "Gaseosas",
+    "precio": 4.5,
+    "imagen": ""
+  },
+  {
+    "id": 93,
+    "nombre": "Inca Kola gordita o jumbo",
+    "categoria": "Bebidas",
+    "grupo": "Gaseosas",
+    "precio": 5.5,
+    "imagen": ""
+  },
+  {
+    "id": 94,
+    "nombre": "Inca Kola / Coca-Cola · 1 litro",
+    "categoria": "Bebidas",
+    "grupo": "Gaseosas",
+    "precio": 10.0,
+    "imagen": ""
+  },
+  {
+    "id": 95,
+    "nombre": "Inca Kola / Coca-Cola · 1.5 litros",
+    "categoria": "Bebidas",
+    "grupo": "Gaseosas",
+    "precio": 13.0,
+    "imagen": ""
+  },
+  {
+    "id": 96,
+    "nombre": "Inca Kola / Coca-Cola · 3 litros",
+    "categoria": "Bebidas",
+    "grupo": "Gaseosas",
+    "precio": 20.0,
+    "imagen": ""
+  },
+  {
+    "id": 97,
+    "nombre": "Pilsen Callao",
+    "categoria": "Bebidas",
+    "grupo": "Cervezas",
+    "precio": 12.0,
+    "imagen": ""
+  },
+  {
+    "id": 98,
+    "nombre": "Cristal",
+    "categoria": "Bebidas",
+    "grupo": "Cervezas",
+    "precio": 12.0,
+    "imagen": ""
+  },
+  {
+    "id": 99,
+    "nombre": "Negra",
+    "categoria": "Bebidas",
+    "grupo": "Cervezas",
+    "precio": 15.0,
+    "imagen": ""
+  },
+  {
+    "id": 100,
+    "nombre": "Trigo",
+    "categoria": "Bebidas",
+    "grupo": "Cervezas",
+    "precio": 15.0,
+    "imagen": ""
+  },
+  {
+    "id": 101,
+    "nombre": "La Quincha",
+    "categoria": "Bebidas",
+    "grupo": "Vinos",
+    "precio": 22.0,
+    "imagen": ""
+  },
+  {
+    "id": 102,
+    "nombre": "La Casa Hacienda",
+    "categoria": "Bebidas",
+    "grupo": "Vinos",
+    "precio": 22.0,
+    "imagen": ""
+  },
+  {
+    "id": 103,
+    "nombre": "Santiago Queirolo",
+    "categoria": "Bebidas",
+    "grupo": "Vinos",
+    "precio": 25.0,
+    "imagen": ""
+  },
+  {
+    "id": 104,
+    "nombre": "Ceviche de pollo",
+    "categoria": "Menú del día",
+    "grupo": "Menú del día",
+    "precio": null,
+    "imagen": "img/menu-ceviche.jpg"
+  },
+  {
+    "id": 105,
+    "nombre": "Arroz verde con pollo",
+    "categoria": "Menú del día",
+    "grupo": "Menú del día",
+    "precio": null,
+    "imagen": "img/menu-arroz.jpg"
+  }
+]
+
